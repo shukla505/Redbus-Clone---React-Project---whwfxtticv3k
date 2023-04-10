@@ -1,0 +1,82 @@
+.container {
+    perspective: 1000px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 40px;
+  }
+  .row-1{
+    display: grid;
+    grid-template-columns: repeat(8, 0.1fr);
+    padding: 0 40px;
+    margin: 0 0 0 0;
+  }
+  .row-2{
+    display: grid;
+    grid-template-columns: repeat(8, 0.1fr);
+    padding: 40px 40px;
+  }
+  .seat {
+    background-color: gainsboro;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .seat.selected {
+    background-color: green;
+  }
+  
+  .seat.occupied {
+    background-color: red;
+  }
+  
+  .seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  .ticket{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 50px 10px 10px;
+
+}
+.ticket button{
+    background-color: rgb(59, 238, 59);
+    border-style: none;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px;
+    padding: 10px;
+}
+.ticket button:hover{
+    background-color: rgb(81, 235, 81);
+    font-size: 12px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.text{
+  padding: 30px;
+  margin: 0 15px 0 0;
+  text-align: start;
+  color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#msg{
+  color: rgb(148, 253, 1);
+  margin: 0px 40px 10px;
+  display: block;
+  text-align: end;
+  padding: 0 20px 10px;
+  font-weight: 500;
+}
+  

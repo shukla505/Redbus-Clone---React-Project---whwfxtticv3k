@@ -1,0 +1,27 @@
+.busData{
+    background-color: rgb(228, 26, 26);
+    padding: 20px;
+    height: auto;
+    
+}
+.sorting{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    margin: 4px 50px;
+}
+.sorting button {
+    cursor: pointer;
+    background-color: rgb(228, 26, 26);
+    border-style: none;
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    font-weight: 700;
+    box-shadow: 1px 1px 1px;
+}
+#img2{
+padding: 10px 10px 0 10px;
+margin: 10px 10px 0 10px;
+}

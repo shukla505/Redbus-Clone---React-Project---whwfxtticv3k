@@ -1,0 +1,51 @@
+.App {
+  text-align: center; 
+  margin: 20px 20%;
+}
+.image-1{
+  padding: 80px;
+  width: 100%;
+  height: 500px;
+  margin-top: 60px;
+}
+.error{
+  background-color: rgb(226, 19, 19);
+  color: white;
+  padding: 25px;
+  margin: 80px;
+  font-size: larger;
+  font-style: oblique;
+
+
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #FFF;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid white;
+  border-bottom: 4px solid transparent;
+  animation: rotation 0.5s linear infinite reverse;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 

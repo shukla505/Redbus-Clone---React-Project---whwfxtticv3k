@@ -1,0 +1,62 @@
+.mainpage{
+    margin: 30px 20px;
+
+
+}
+.user-Form-Section{
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+    margin: 0 30px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.input-div{
+    margin: 10px;
+}
+.input-div label{
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-div input{
+    height: 30px;
+    text-align: center;
+    cursor: text;
+}
+.button-div{
+ margin-top: 30px;
+ margin-bottom: 10px;
+ 
+}
+.button-div .search-btn{
+    border-style: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(228, 26, 26);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-div .switch{
+    border-style: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(228, 26, 26);
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+.search-btn:hover{
+    font-size: 18px;
+}
+.switch:hover{
+    font-size: 22px;
+}
